@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import { Input } from "../components/ui/input";
 import { Textarea } from "../components/ui/textarea";
