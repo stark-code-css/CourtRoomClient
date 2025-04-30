@@ -13,7 +13,7 @@ export default defineConfig({
   },
   server: {
     cors: {
-      origin: ["http://localhost:3000", "https://courtroom.onrender.com"],
+      origin: ["http://localhost:5173", "https://courtroom.onrender.com"],
       credentials: true,
       methods: ["*"], // Allow all methods
       allowedHeaders: ["*"],
