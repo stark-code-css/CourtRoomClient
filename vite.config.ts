@@ -11,13 +11,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  server: {
-    cors: {
-      origin: ["http://localhost:5173", "https://courtroom.onrender.com"],
-      credentials: true,
-      methods: ["*"], // Allow all methods
-      allowedHeaders: ["*"],
-      exposedHeaders: ["*"],
-    },
-  },
 });
